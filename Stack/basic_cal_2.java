@@ -29,6 +29,7 @@ public class basic_cal_2 {
                     st.push(st.pop() / curr);
                 }
 
+                //if no operation done so make the op to current value
                 op = ch[i];
                 curr = 0;
             }
