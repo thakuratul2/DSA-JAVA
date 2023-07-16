@@ -48,6 +48,7 @@ class n_ary_preorder {
 
         //put the node in the list from the tree
         for(int i =0;i<root.children.size();i++){
+            
             preorder(root.children.get(i),res);
         }
     }
