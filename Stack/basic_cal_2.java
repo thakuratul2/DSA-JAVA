@@ -20,6 +20,7 @@ public class basic_cal_2 {
             if(!Character.isDigit(ch[i]) && ch[i] != ' ' || i == ch.length-1){
 
                 if(op == '+'){
+                    
                     st.push(curr);
                     
                 }else if(op == '-'){
