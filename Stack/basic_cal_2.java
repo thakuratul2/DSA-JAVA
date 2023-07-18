@@ -14,6 +14,7 @@ public class basic_cal_2 {
         for(int i =0;i<ch.length;i++){
             if(Character.isDigit(ch[i])){
                 curr = curr*10  + ch[i] - '0';
+                
             }
 
             if(!Character.isDigit(ch[i]) && ch[i] != ' ' || i == ch.length-1){
