@@ -23,6 +23,7 @@ public class basic_cal_2 {
                     
                     st.push(curr);
                     
+                    
                 }else if(op == '-'){
                     st.push(-curr);
                 }else if(op == '*'){
