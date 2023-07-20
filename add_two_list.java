@@ -35,6 +35,7 @@ public class ListNode {
             int sum = digit1 + digit2 + carry;
 
             int digit = sum %10;
+            
             carry = sum / 10;
 
             ListNode dummy = new ListNode(digit);
