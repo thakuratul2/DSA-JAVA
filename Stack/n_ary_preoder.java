@@ -41,6 +41,7 @@ class n_ary_preorder {
     public void preorder(Node root, List<Integer> res){
 
         if(root == null){
+            
             return;
         }
 
