@@ -10,6 +10,7 @@ public class majority_element {
 
         System.out.println("Enter the element: ");
         for(int i =0;i<size;i++){
+            
             nums[i] = sc.nextInt();
         }
 
