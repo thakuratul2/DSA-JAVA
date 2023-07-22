@@ -11,6 +11,7 @@ public class largest_element {
 
         System.out.println("Enter the element: ");
         for(int i = 0;i<size;i++){
+            
             arr[i] = sc.nextInt();
         }
         //by using max variable
