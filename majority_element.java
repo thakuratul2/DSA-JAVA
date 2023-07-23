@@ -15,6 +15,7 @@ public class majority_element {
         }
 
         int count = 0;
+        
         int majority = 0;
 
         for(int j = 0;j<size;j++){
