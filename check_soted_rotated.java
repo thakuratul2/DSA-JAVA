@@ -10,7 +10,7 @@ public class check_soted_rotated {
 
         System.out.println("Enter the element: ");
         for(int i = 0;i<size;i++){
-            
+
             nums[i] = sc.nextInt();
         }
 
@@ -20,6 +20,7 @@ public class check_soted_rotated {
                 count++;
             }
             if(count>1){
+                
                 System.out.println("False");
             }
         }
