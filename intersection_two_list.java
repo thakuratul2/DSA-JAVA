@@ -20,10 +20,11 @@ public class intersection_two_list {
         //length of list A
 
         int lenA = 0;
-        
+
         ListNode tempA = headA;
 
         while(tempA!=null){
+            
             lenA++;
             tempA = tempA.next;
         }
