@@ -26,6 +26,7 @@ public class intersection_two_list {
         while(tempA!=null){
             
             lenA++;
+            
             tempA = tempA.next;
         }
          //length of list B
