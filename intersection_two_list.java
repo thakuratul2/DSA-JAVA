@@ -26,12 +26,13 @@ public class intersection_two_list {
         while(tempA!=null){
             
             lenA++;
-            
+
             tempA = tempA.next;
         }
          //length of list B
 
         int lenB = 0;
+        
         ListNode tempB = headB;
 
         while(tempB!=null){
