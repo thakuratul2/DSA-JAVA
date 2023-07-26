@@ -47,6 +47,7 @@ public class intersection_two_list {
         //iterate the larger node
 
         tempA = headA;
+        
         tempB= headB;
 
         if(lenA > lenB){
