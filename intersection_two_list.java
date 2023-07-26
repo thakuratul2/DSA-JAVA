@@ -47,11 +47,12 @@ public class intersection_two_list {
         //iterate the larger node
 
         tempA = headA;
-        
+
         tempB= headB;
 
         if(lenA > lenB){
             while(diff-- > 0)
+            
             tempA = tempA.next;
         }else{
             while(diff-- > 0)
