@@ -63,6 +63,7 @@ public class intersection_two_list {
         //check the equality
         while(tempA !=tempB){
             tempA = tempA.next;
+            
             tempB = tempB.next;
 
             if(tempA == null || tempB == null)
