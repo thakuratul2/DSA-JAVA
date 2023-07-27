@@ -56,6 +56,7 @@ public class intersection_two_list {
             tempA = tempA.next;
         }else{
             while(diff-- > 0)
+            
             tempB = tempB.next;
         }
 
