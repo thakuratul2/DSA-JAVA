@@ -67,9 +67,10 @@ public class intersection_two_list {
             tempB = tempB.next;
 
             if(tempA == null || tempB == null)
-            
+
             return null;
         }
+        
         return tempA;
     }
 }
