@@ -7,6 +7,7 @@ public class largest_element {
         int size = sc.nextInt();
 
         //int nums[] = new int[size];
+        
         int arr[] = new int[size];
 
         System.out.println("Enter the element: ");
@@ -18,7 +19,7 @@ public class largest_element {
         int max = arr[0];
 
         for(int j=0;j<size;j++){
-            
+
             if(arr[j]>max){
                 
                 max = arr[j];
