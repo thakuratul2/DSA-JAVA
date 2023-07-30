@@ -9,7 +9,7 @@ public class check_soted_rotated {
         int nums[] = new int[size];
 
         System.out.println("Enter the element: ");
-        
+
         for(int i = 0;i<size;i++){
 
             nums[i] = sc.nextInt();
@@ -18,6 +18,7 @@ public class check_soted_rotated {
         int count = 0;
         for(int j = 0;j<size;j++){
             if(nums[j]>nums[(j+1)%size]){
+                
                 count++;
             }
             if(count>1){
