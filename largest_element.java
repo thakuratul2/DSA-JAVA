@@ -15,6 +15,7 @@ public class largest_element {
         for(int i = 0;i<size;i++){
             
             arr[i] = sc.nextInt();
+            
         }
         //by using max variable
         int max = arr[0];
