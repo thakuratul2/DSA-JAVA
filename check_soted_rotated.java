@@ -16,6 +16,7 @@ public class check_soted_rotated {
         }
 
         int count = 0;
+        
         for(int j = 0;j<size;j++){
             
             if(nums[j]>nums[(j+1)%size]){
