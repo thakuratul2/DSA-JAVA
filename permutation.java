@@ -32,6 +32,7 @@ public class List<T> {
         public List<List<Integer>> permute(int[] nums) {
             int n = nums.length;
             int[] per = new int[n];
+            
             for (int i = 0; i < n; i++) {
                 per[i] = 11;
             }
