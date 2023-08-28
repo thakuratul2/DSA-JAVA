@@ -9,6 +9,7 @@ class gas_station {
                 total+=sum;
                 sum = 0;
                 position = index+1;
+                
             }
         }
 
