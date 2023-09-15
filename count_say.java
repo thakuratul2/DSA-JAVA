@@ -10,9 +10,10 @@ public class count_say {
         }
         public String Final(String s)
         {
-            
+
             StringBuilder sb=new StringBuilder();
             char c=s.charAt(0);
+            
             int cnt=1;
             for(int i=1;i<s.length();i++)
             {
