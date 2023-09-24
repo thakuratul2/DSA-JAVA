@@ -12,6 +12,7 @@ public class count_say {
         {
 
             StringBuilder sb=new StringBuilder();
+            
             char c=s.charAt(0);
             
             int cnt=1;
