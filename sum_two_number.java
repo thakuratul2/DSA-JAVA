@@ -5,6 +5,7 @@ public class sum_two_number {
             //by not using + and - only use bit manipulation
             int c=b,s=0;
             while(c!=0){
+                
                 s=a^b;
                 c=(a&b)<<1;
                 a=s;
