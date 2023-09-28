@@ -9,6 +9,7 @@ public class sum_two_number {
                 s=a^b;
                 
                 c=(a&b)<<1;
+                
                 a=s;
                 b=c;
             }
