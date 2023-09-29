@@ -11,6 +11,7 @@ public class sum_two_number {
                 c=(a&b)<<1;
                 
                 a=s;
+                
                 b=c;
             }
             return s;
