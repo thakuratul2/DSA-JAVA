@@ -5,6 +5,7 @@ class longest_sequence {
         HashMap<Integer, Boolean> num = new HashMap<>();
 
         for(int i = 0;i<nums.length;i++){
+            
             num.put(nums[i],true);
            
         }
