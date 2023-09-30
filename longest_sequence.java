@@ -17,6 +17,7 @@ class longest_sequence {
             int max = 0;
             for(Integer key : num.keySet()){
                 if(num.get(key) == true){
+                    
                     max = Math.max(max,findLength(num,key));
                 }
             }
