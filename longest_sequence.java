@@ -11,6 +11,7 @@ class longest_sequence {
         }
          for(int i = 0;i<nums.length;i++){
                 if(num.containsKey(nums[i] - 1)){
+                    
                     num.put(nums[i], false);
                 }
             }
